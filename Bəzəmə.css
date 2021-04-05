@@ -1,0 +1,72 @@
+@import url('Yazı Görünüşləri.css');
+
+:root {
+    --dark-not-black: #0a0a0a;
+    --light-gray: #f6f6f6;
+    --ls-blue: #001430;
+    --ls-turquoise: #00edd0;
+}
+
+html {
+    background: var(--ls-blue)
+}
+
+body {
+    margin: 5%;
+    color: var(--light-gray);
+    font: 1.25em 'Texturina', sans-serif;
+}
+
+::selection {
+    background: none;
+}
+
+ps {
+    margin-left: 2.5%
+}
+
+h1 {
+    color: var(--ls-turquoise);
+    font: 7.4825em 'Cocogoose Classic', sans-serif;
+    text-align: center;
+    border-bottom: 2px solid var(--ls-turquoise);
+    transition: 0.5s
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+    transition: 0.25s
+}
+
+a:hover {
+    color: darkcyan
+}
+
+img#taqımnişanı, img#xalqnişanı {
+    position: absolute;
+    bottom: 5%;
+    height: 15%;
+}
+
+img#taqımnişanı {
+    left: 5%;
+}
+
+img#xalqnişanı {
+    right: 5%;
+}
+
+div.üzv {
+    display: inline-block;
+    padding: 1.5% 0%;
+    vertical-align: top;
+    width: 12.5%;
+    height: 40%;
+    text-align: center;
+    border: 2px solid var(--dark-not-black)
+}
+
+div.üzv img {
+    width: 50%
+}
