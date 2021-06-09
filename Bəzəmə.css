@@ -14,7 +14,7 @@ html {
 body {
     margin: 5%;
     color: var(--light-gray);
-    font: 1.25em 'Texturina', sans-serif;
+    font: 1em 'Texturina', sans-serif;
 }
 
 ::selection {
@@ -27,7 +27,7 @@ ps {
 
 h1 {
     color: var(--ls-turquoise);
-    font: 7.4825em 'Cocogoose Classic', sans-serif;
+    font: 7em 'Cocogoose Classic', sans-serif;
     text-align: center;
     border-bottom: 2px solid var(--ls-turquoise);
     transition: 0.5s
@@ -69,4 +69,15 @@ div.üzv {
 
 div.üzv img {
     width: 50%
+}
+
+div.müsabiqə {
+    width: 35%;
+    border-left: 8px solid #303030;
+    border-radius: 8px
+}
+
+div.müsabiqə img {
+    width: 100%;
+    filter: brightness(25%)
 }
